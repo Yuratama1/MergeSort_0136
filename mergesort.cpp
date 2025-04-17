@@ -28,9 +28,18 @@ void input(){
     }
 }
 
+void mergesort(int low, int high){
+    //step 1
+    if (low >= high ) {
+        return; //step 1.a
+    }
+}
+
+
 void output() {
     cout << "\nData Setelah diurutkan (MergeSort): ";
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
+    cout << endl;
 }
