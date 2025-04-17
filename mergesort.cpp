@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int art[20], B[20];
+int arr[20], B[20];
 
 int n;
 
@@ -21,6 +21,16 @@ void input(){
     cout << "\n==========================";
     cout << "\nInputkan Isi Element Array";
     cout << "\n==========================" << endl;
-    
 
+    for (int i = 0; i < n; i++) {
+        cout << "Array index ke - " << ": ";
+        cin >> arr[i];
+    }
+}
+
+void output() {
+    cout << "\nData Setelah diurutkan (MergeSort): ";
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
 }
