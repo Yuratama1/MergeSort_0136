@@ -28,11 +28,13 @@ void input(){
     }
 }
 
-void mergesort(int low, int high){
+void mergesort(int low, int high) {
     //step 1
     if (low >= high ) {
         return; //step 1.a
     }
+
+    int mid = (low + high) / 2; //step 2
 }
 
 
