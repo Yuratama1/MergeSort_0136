@@ -70,6 +70,10 @@ void mergeSort(int low, int high) {
         i++;
         j++;
     }
+    //step 5
+    for(int y = low; y <= high; y++){
+        arr[y] = B[y];
+    }
 }
 
 
